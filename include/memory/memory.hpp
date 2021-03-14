@@ -1,6 +1,6 @@
 #pragma once
 
-#include "entity.hpp"
+#include <memory/entity.hpp>
 
 #define VIRTUAL_TO_PHYICAL_ADDR(v_addr) ((v_addr) - (system::memory::KERNEL_ADDR_BASE))
 #define PHYICAL_TO_VIRTUAL_ADDR(p_addr) ((p_addr) + (system::memory::KERNEL_ADDR_BASE))
